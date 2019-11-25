@@ -14,7 +14,7 @@ public class MyClassLoaderTest {
 
     @Test
     public void testMyClassLoader() throws IllegalAccessException, InstantiationException, MalformedURLException, ClassNotFoundException {
-        URL url = new URL("file://Users/oyo04049/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar");
+        URL url = new URL("file:/~/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar");
         ClassLoader myloader = new URLClassLoader(new URL[]{url});
         Class c = myloader.loadClass("com.baicheng.classloaderdemo.classloader.Test3");
         System.out.println("----------");
