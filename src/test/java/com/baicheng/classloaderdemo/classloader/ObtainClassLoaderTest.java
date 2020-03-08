@@ -1,6 +1,7 @@
 package com.baicheng.classloaderdemo.classloader;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 import sun.jvm.hotspot.HelloWorld;
 
 /**

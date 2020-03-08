@@ -1,6 +1,6 @@
 package com.baicheng.classloaderdemo.classloader;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
